@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let limiteEnSegundos=60*60*24*365;
+        document.cookie=`esquemaColor=dark`;
+        document.cookie=`max-age=${limiteEnSegundos}`;
+        document.cookie="usuario=Aitana, expires=Sat, 6 Aug 2025 12:15:00 GMT";
+        document.cookie="idioma=es";
+        document.cookie="haVotadoEncuesta=si";
+        alert("Cookies actuales: "+document.cookie);
+    </script>
+</body>
+</html>
